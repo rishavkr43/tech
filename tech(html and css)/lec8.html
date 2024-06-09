@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: beige;
+            border: 2px solid black;
+            display: flex;
+            /* flex-direction: column; */
+            flex-direction: row-reverse;
+            flex-wrap:wrap;
+            height: 800px;
+            align-items: center;
+            justify-content: start;
+            align-content: center;
+            
+        }
+        .box{
+            /* height: 200px;
+            width: 200px; */
+            border: 1px solid black;
+            margin: 2px;
+            padding: 2px;
+           
+        }
+        #b1{
+            background-color: aqua;
+            /* order: 500; */
+            /* flex-shrink: 4;
+            flex-grow: 1; */
+           align-self: end; 
+
+        }
+        #b2{
+           background-color: rgb(255, 208, 0); 
+           /* flex-grow: 1; */
+
+
+        }
+        #b3{
+           background-color: rgb(72, 255, 0); 
+           /* flex-grow: 1; */
+            /* flex-basis: 300px; increases the initial width of the box */
+
+        }
+        #b4{
+           background-color: rgb(255, 0, 64); 
+           /* order: -1; 
+           flex-grow: 1; */
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" id="b1">
+             Box 1
+        </div>
+        <div class="box" id="b2">
+            Box 2
+        </div>
+        <div class="box" id="b3">Box 3</div>
+        <div class="box" id="b4">Box 4</div>
+    </div>
+</body>
+</html>

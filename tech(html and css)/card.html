@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+      .container{
+        width: 100vw;
+      height: 100vh;
+      background-color: #cdd6da;
+      background-image: linear-gradient(160deg, #10678d 0%, #464963 100%);
+      display: flex;
+      justify-content: center;
+        align-items: center;
+        }
+        .card{
+            width: 1000px;
+            height: 500px;
+            background-color: #4e094c;
+            display: flex;
+
+        }
+        .txtbox{
+            width: 50%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+        .content
+        {
+            width: 75%;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 65px;
+           margin: auto;
+           
+        }
+        #head{
+            font-size: 2.5rem;
+        }
+        #stats{
+            display: flex;
+            justify-content: space-between;
+        }
+        #number{
+            font-size: 1.7rem;
+            font-weight: bold;
+        }
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="txtbox">
+                <div class="content">
+                    <h2 id="head">Get insights that help your business grow</h2>
+
+                    <div id="desp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente vel 
+                        deleniti fuga nobis! Exercitationem impedit laudantium molestiae reprehenderit veritatis nisi.
+                    </div>
+                    <div id="stats">
+                        <div>
+                            <p id="number"> 10K+</p>
+                            <p id="unit">Comments</p>
+
+                        </div>
+                        <div>
+                            <p id="number">  214</p>
+                            <p id="unit">Paid Users</p>
+
+                        </div>
+                        <div>
+                            <p id="number">12M+</p>
+                            <p id="unit">Views</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="imgbox">
+                <img src="Firstear01.jpg" width="100%" height="100%" alt=" image">
+
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
