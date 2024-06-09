@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Complex Form</h1>
+ <form >
+    <fieldset>
+        <legend>
+            Personal Information
+        </legend>
+        <br>
+        <label for="t1">Name</label>
+        <input type="text" id="t1">
+        <label for="t2">Email</label>
+        <input type="email" id="t2">
+        <label for="t3">Phone</label>
+        <input type="tel" id="t3">
+        <label for="t4">Date of Birth</label>
+        <input type="date" id="t4">
+
+        <!-- enter a label of gender for class "Gender" to give it a side heading gender -->
+        <label for="Gender">Gender</label>
+        <input type="radio" id="t5" class="Gender">
+        <label for="t5">Male</label>
+        <input type="radio" id="t6" class="Gender">
+        <label for="t6">Female</label>
+        <br>
+        <label for="t7">Country</label>
+        <select name="country" id="t7">
+            <option value="" hidden disabled selected>Choose</option>
+            <option value="US">US</option>
+            <option value="India"> India</option>
+            <option value="Canada ">Canada</option>
+            <option value="Japan">Japan</option>
+
+        </select>
+
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Address</legend>
+        <label for="s1">Street:</label>
+        <input type="text" id="s1">
+        <label for="s2">City:</label>
+        <input type="text" id="s2">
+        <label for="s3">State:</label>
+        <input type="text" id="s3">
+        <label for="s4">Zip Code:</label>
+        <input type="text" id="s4">
+    </fieldset>
+    <fieldset>
+        <legend>
+            Other Information
+        </legend>
+        <p>Comments:</p>
+        <textarea name="" id="s7" cols="30" rows="10"></textarea>
+        <label for="s6">I agree to the terms of service</label>
+        <input type="checkbox"  id="s6">
+       
+        
+
+        
+
+    </fieldset>
+    <button>Submit</button>
+ </form>   
+</body>
+</html>

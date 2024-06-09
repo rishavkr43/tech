@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Job Application</h2>
+    <br>
+    <br>
+    <label for="t1">Name:</label>
+    <input type="text" id="t1" name="t1">
+    <br>
+    <br>
+    <label for="t2">Email:</label>
+    <input type="email" id="t2" name="t2">
+    <br>
+    <br>
+    <label for="t3">Phone:</label>
+    <input type="tel" id="t3" name="t3">
+    <br>
+    <br>
+    <label for="t4">Resume:</label>
+    <input type="file" id="t4" >
+    <br>
+    <br>
+    <label for="t5">Experience(years):</label>
+    <input type="number" id="t5" name="t5" min="0" max="50">
+    <br>
+    <br>
+    <fieldset>
+        <legend>Skills</legend>
+        <br>
+        <label for="t6">HTML</label>
+        <input type="checkbox" id="t6" name="t6">
+        <br>
+        <label for="t7">CSS</label>
+        <input type="checkbox" id="t7" name="t7">
+        <br>
+        <label for="t8">JavaScript</label>
+        <input type="checkbox" id="t8" name="t8">
+    </fieldset>
+        <br>
+        <br>
+        <label for="t9">Highest Education:</label>
+        <select name="Schooling" id="t9">
+            
+            <option value="" disabled selected hidden>Choose</option>
+
+            <option value="Primary">Primary</option>
+            <option value="Middle">Middle</option>
+            <option value="High School">High School</option>
+            <option value="Plus 2">Plus 2</option>
+        </select>
+        <br>
+        <br>
+        <fieldset >
+            <legend>Availability:</legend>
+            <br>
+            
+            <input type="radio" name="jobtype" id="s1">
+            <label for="s1">Full-time</label>
+            <br>
+            
+            <input type="radio" name="jobtype" id="s2">
+            <label for="s2">Part-time</label>
+            <br>
+        </fieldset>
+        
+        
+        <label for="s3">Additional Comments:</label>
+        <br/>
+        <textarea name="Comments" id="s3" cols="30" rows="10" placeholder="Enter text here"></textarea>
+        <input type="button" value="Submit Application">
+        
+
+    
+</body>
+</html>
