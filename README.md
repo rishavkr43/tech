@@ -1,2 +1,2 @@
-# tech
+# development
 learning web dev
